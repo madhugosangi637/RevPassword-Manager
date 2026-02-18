@@ -1,10 +1,15 @@
-🔐 Password Manager – Console Application
-📌 Project Overview
+# 🔐 Password Manager – Console Application
 
-The Password Manager is a secure console-based Java application built using Maven and Oracle (PL/SQL).
+---
+
+## 📌 Project Overview
+
+The **Password Manager** is a secure console-based Java application built using **Maven** and **Oracle (PL/SQL)**.  
 It allows users to securely store and manage passwords for multiple online accounts using a protected master account.
 
-The application follows a modular layered architecture and implements security mechanisms like encryption, security questions, and verification logic.
+The application follows a **modular layered architecture** and implements security mechanisms like encryption, security questions, and verification logic.
+
+---
 
 ## 🏗️ Project Structure
 
@@ -46,155 +51,138 @@ project
 └── README.md
 ```
 
+---
 
-🏛️ Application Architecture
+## 🏛️ Application Architecture
 
-The project follows a Layered Architecture:
+The project follows a **Layered Architecture**:
 
-Console (PasswordManagerApp)
+```
+Console Layer (PasswordManagerApp)
         ↓
 DAO Layer (UserDAO, PasswordVaultDao, SecurityQuestionDao)
         ↓
 Oracle Database (PL/SQL)
+```
 
-🔹 Layer Responsibilities
-1️⃣ Main Layer
+---
 
-Entry point: PasswordManagerApp.java
+## 🔹 Layer Responsibilities
 
-Handles menu navigation and user interaction
+### 1️⃣ Main Layer
+- Entry point: `PasswordManagerApp.java`
+- Handles menu navigation and user interaction
 
-2️⃣ DAO Layer
+### 2️⃣ DAO Layer
+- **UserDAO** – Handles user registration, login, updates  
+- **PasswordVaultDao** – Handles password CRUD operations  
+- **SecurityQuestionDao** – Handles account recovery logic  
 
-UserDAO – Handles user registration, login, updates
+### 3️⃣ Utility Layer
+- **DBUtil** – Oracle DB connection handling  
+- **PasswordGenerator** – Generates strong passwords  
+- **PasswordUtil** – Encryption & password validation  
+- **OtpUtil** – Input/output handling  
+- **TestDB** – Database testing support  
 
-PasswordVaultDao – Handles password CRUD operations
+### 4️⃣ Database Layer
+- Oracle Database  
+- PL/SQL procedures (if implemented)
 
-SecurityQuestionDao – Handles account recovery logic
+---
 
-3️⃣ Utility Layer
+## 🗄️ Database (Oracle – PL/SQL)
 
-DBUtil – Oracle DB connection handling
+### Main Tables
+- USER
+- PASSWORD_VAULT
+- SECURITY_QUESTION
+- VERIFICATION_CODE (if implemented)
 
-PasswordGenerator – Generates strong passwords
+### Relationships
+- One User → Many Password Entries  
+- One User → Many Security Questions  
 
-PasswordUtil – Encryption / password validation
+📂 ERD Diagram: `docs/erd`  
+📂 Architecture Diagram: `docs/architecture`
 
-OptUtil – Input/output handling
+---
 
-TestDB – Database testing support
+## 🔐 Features
 
-4️⃣ Database Layer
+### 👤 User Features
+- Register new account  
+- Login with master password  
+- Update profile details  
+- Change master password  
+- Forgot password using security questions  
 
-Oracle Database
+### 🔑 Password Vault Features
+- Add account credentials  
+- View stored passwords  
+- Update passwords  
+- Delete passwords  
+- Search by account name  
 
-PL/SQL procedures (if implemented)
+### 🔒 Security Features
+- Encrypted password storage  
+- Strong random password generation  
+- Logging using Log4j2  
+- Secure DB connection via DBUtil  
 
-🗄️ Database (Oracle – PL/SQL)
-Main Tables:
+---
 
-USER
+## 🛠️ Technologies Used
 
-PASSWORD_VAULT
+- Java 8  
+- Maven  
+- Oracle Database  
+- PL/SQL  
+- JDBC  
+- Log4j2  
+- Eclipse IDE  
 
-SECURITY_QUESTION
+---
 
-VERIFICATION_CODE (if implemented)
+## ▶️ How to Run the Project
 
-Relationships:
+1. Clone the repository  
+2. Open in Eclipse as **Existing Maven Project**  
+3. Configure Oracle DB connection in `DBUtil.java`  
+4. Ensure required tables are created in Oracle  
+5. Run `PasswordManagerApp.java`  
 
-One User → Many Password Entries
+---
 
-One User → Many Security Questions
-
-📂 ERD Diagram: docs/erd
-📂 Architecture Diagram: docs/architecture
-
-🔐 Features
-👤 User Features
-
-Register new account
-
-Login with master password
-
-Update profile details
-
-Change master password
-
-Forgot password using security questions
-
-🔑 Password Vault Features
-
-Add account credentials
-
-View stored passwords
-
-Update passwords
-
-Delete passwords
-
-Search by account name
-
-🔒 Security Features
-
-Encrypted password storage
-
-Strong random password generation (via PasswordGenerator)
-
-Logging using Log4j2
-
-Secure DB connection via DBUtil
-
-🛠️ Technologies Used
-
-Java 8
-
-Maven
-
-Oracle Database
-
-PL/SQL
-
-JDBC
-
-Log4j2
-
-Eclipse IDE
-
-▶️ How to Run the Project
-
-Clone the repository
-
-Open in Eclipse as Existing Maven Project
-
-Configure Oracle DB connection in DBUtil.java
-
-Ensure required tables are created in Oracle
-
-Run PasswordManagerApp.java
-
-📑 Logging
+## 📑 Logging
 
 Application logs are stored in:
 
+```
 logs/app.log
-
+```
 
 Configured using:
 
+```
 src/main/resources/log4j2.xml
+```
 
-🎯 Definition of Done
+---
 
-✔ Working console-based application
-✔ Maven project structure
-✔ Oracle DB integration
-✔ ERD Diagram included
-✔ Architecture Diagram included
-✔ Logging implemented
-✔ Code pushed to GitHub
+## 🎯 Definition of Done
 
-👨‍💻 Author
+✔ Working console-based application  
+✔ Maven project structure  
+✔ Oracle DB integration  
+✔ ERD Diagram included  
+✔ Architecture Diagram included  
+✔ Logging implemented  
+✔ Code pushed to GitHub  
 
-Madhu
-Java | Oracle | Maven Project | Jdbc | Log4J | JUnit
+---
+
+## 👨‍💻 Author
+
+**Madhu Gosangi**  
+Java | Oracle | Maven | JDBC | Log4j2 | JUnit

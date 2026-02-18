@@ -1,0 +1,56 @@
+2026-02-07 01:35:03 INFO  PasswordManagerApp - Password Manager Application Started
+2026-02-07 01:35:55 INFO  PasswordManagerApp - Password Manager Application Started
+2026-02-07 01:36:28 INFO  UserDAO - Registering user with email: santosh@gmail.com
+2026-02-07 02:18:20 INFO  PasswordVaultDao - Adding password for userId: 1
+2026-02-07 02:20:52 INFO  PasswordVaultDao - Adding password for userId: 422
+2026-02-07 02:21:15 INFO  PasswordVaultDao - Adding password for userId: 422
+2026-02-07 02:26:56 INFO  PasswordVaultDao - Adding password for userId: 441
+2026-02-07 02:29:16 INFO  PasswordVaultDao - Adding password for userId: 381
+2026-02-07 02:39:46 INFO  PasswordVaultDao - Adding password for userId: 381
+2026-02-07 02:48:27 INFO  PasswordVaultDao - Adding password for userId: 381
+2026-02-07 02:49:49 INFO  PasswordVaultDao - Adding password for userId: 381
+2026-02-07 02:57:28 INFO  PasswordVaultDao - Adding password for userId: 381
+2026-02-07 02:57:28 INFO  PasswordVaultDao - Adding password for userId: 381
+2026-02-07 02:57:28 INFO  PasswordVaultDao - Adding password for userId: 381
+2026-02-07 02:57:29 INFO  PasswordVaultDao - Adding password for userId: 381
+2026-02-07 02:59:05 INFO  PasswordVaultDao - Adding password for userId: 422
+2026-02-07 02:59:06 INFO  PasswordVaultDao - Adding password for userId: 422
+2026-02-07 03:00:24 INFO  PasswordVaultDao - Adding password for userId: 422
+2026-02-07 03:00:24 INFO  PasswordVaultDao - Adding password for userId: 422
+2026-02-07 11:02:59 INFO  PasswordVaultDao - Adding password for userId: 422
+2026-02-07 11:02:59 INFO  PasswordVaultDao - Adding password for userId: 422
+2026-02-07 11:26:40 INFO  PasswordVaultDao - Adding password for userId: 422
+2026-02-07 11:26:41 INFO  PasswordVaultDao - Adding password for userId: 422
+2026-02-07 12:30:08 INFO  PasswordVaultDao - Adding password for userId: 422
+2026-02-07 12:30:08 INFO  PasswordVaultDao - Adding password for userId: 422
+2026-02-07 12:30:08 INFO  PasswordVaultDao - Adding password for userId: 422
+2026-02-07 12:30:08 INFO  PasswordVaultDao - Adding password for userId: 422
+2026-02-07 13:00:24 INFO  PasswordVaultDao - Adding password for userId: 422
+2026-02-07 13:00:25 INFO  PasswordVaultDao - Adding password for userId: 422
+2026-02-07 13:00:25 INFO  PasswordVaultDao - Adding password for userId: 422
+2026-02-07 13:00:25 INFO  PasswordVaultDao - Adding password for userId: 422
+2026-02-07 13:03:13 INFO  PasswordManagerApp - Password Manager Application Started
+2026-02-07 13:03:53 INFO  UserDAO - Registering user with email: rose@gmail.com
+2026-02-07 13:06:12 INFO  PasswordVaultDao - Adding password for userId: 481
+2026-02-07 14:03:34 INFO  PasswordManagerApp - Password Manager Application Started
+2026-02-07 14:05:49 INFO  PasswordVaultDao - Adding password for userId: 481
+2026-02-07 15:43:31 INFO  PasswordManagerApp - Password Manager Application Started
+2026-02-07 15:43:58 INFO  UserDAO - Registering user with email: nalini@gmail.com
+2026-02-07 19:34:01 INFO  PasswordManagerApp - 
+Password Manager Application Started
+2026-02-07 21:43:13 INFO  PasswordManagerApp - 
+Password Manager Application Started
+2026-02-07 21:47:32 INFO  UserDAO - Registering user with email: sai@gmail.com
+2026-02-08 22:00:32 INFO  PasswordManagerApp - 
+Password Manager Application Started
+2026-02-08 22:04:22 INFO  UserDAO - Registering user with email: hari@gmail.com
+2026-02-08 22:09:08 INFO  PasswordVaultDao - Adding password for userId: 541
+2026-02-10 08:12:47 INFO  PasswordVaultDao - Adding password for userId: 422
+2026-02-10 08:12:47 INFO  PasswordVaultDao - Adding password for userId: 422
+2026-02-10 08:12:47 INFO  PasswordVaultDao - Adding password for userId: 422
+2026-02-10 08:12:47 INFO  PasswordVaultDao - Adding password for userId: 422
+2026-02-10 09:53:44 INFO  PasswordManagerApp - 
+Password Manager Application Started
+2026-02-10 15:46:48 INFO  PasswordManagerApp - 
+Password Manager Application Started
+2026-02-10 16:55:50 INFO  UserDAO - Registering user with email: gosangimadhu9@gmail.com

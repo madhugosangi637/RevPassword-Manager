@@ -6,42 +6,46 @@ It allows users to securely store and manage passwords for multiple online accou
 
 The application follows a modular layered architecture and implements security mechanisms like encryption, security questions, and verification logic.
 
-🏗️ Project Structure
+## 🏗️ Project Structure
+
+```
 project
 │
 ├── src/main/java
 │   ├── com.revpm.dao
-│   │     ├── UserDAO.java
-│   │     ├── PasswordVaultDao.java
-│   │     └── SecurityQuestionDao.java
+│   │   ├── UserDAO.java
+│   │   ├── PasswordVaultDao.java
+│   │   └── SecurityQuestionDao.java
 │   │
 │   ├── com.revpm.model
-│   │     ├── User.java
-│   │     ├── PasswordEntry.java
-│   │     └── SecurityQuestion.java
+│   │   ├── User.java
+│   │   ├── PasswordEntry.java
+│   │   └── SecurityQuestion.java
 │   │
 │   ├── com.revpm.util
-│   │     ├── DBUtil.java
-│   │     ├── PasswordGenerator.java
-│   │     ├── PasswordUtil.java
-│   │     ├── OptUtil.java
-│   │     └── TestDB.java
+│   │   ├── DBUtil.java
+│   │   ├── PasswordGenerator.java
+│   │   ├── PasswordUtil.java
+│   │   ├── OtpUtil.java
+│   │   └── TestDB.java
 │   │
 │   └── com.revpm.main
-│         └── PasswordManagerApp.java
+│       └── PasswordManagerApp.java
 │
 ├── src/main/resources
-│     └── log4j2.xml
+│   └── log4j2.xml
 │
 ├── docs
-│     ├── erd
-│     └── architecture
+│   ├── erd
+│   └── architecture
 │
 ├── logs
-│     └── app.log
+│   └── app.log
 │
 ├── pom.xml
 └── README.md
+```
+
 
 🏛️ Application Architecture
 
